@@ -68,8 +68,6 @@ header {
 .header-content__name {
   width: 620px;
   height: 122px;
-  left: 0px;
-  top: 0px;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -82,14 +80,11 @@ header {
 
 .header-content__content {
   height: 98px;
-  left: 0px;
-  top: 134px;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 28px;
   color: #344563;
-  margin: 0px 12px;
 }
 
 .header-icons {
@@ -111,12 +106,13 @@ header {
 }
 
 main {
-  width: 92vw;
+  width: 80vw;
 }
 
 .portfolio-title {
   text-align: center;
   margin-bottom: 40px;
+  margin-left: calc((100vw - 80vw) / 2);
 }
 
 .portfolio-title > p {
@@ -133,6 +129,8 @@ main {
   padding: 30px;
   border-radius: 30px;
   margin-bottom: 40px;
+  width: 82vw;
+  margin-left: calc((100vw - 80vw) / 4);
 }
 
 .project-img {
@@ -210,7 +208,7 @@ main {
   margin-right: 8px;
 }
 
-.see-project__container {
+.see-project__container, .see-resume__container {
   margin-top: 30px;
 }
 
@@ -231,4 +229,79 @@ main {
   border-radius: 8px;
   transition: 0.6s all;
   border: 1px solid rgb(221, 221, 221);
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-title > p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 24px;
+  color: #6070FF;
+}
+
+#about {
+  background-color: white;
+  border-top-right-radius: 100px;
+  padding: 50px;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-content {
+  width: 50%;
+}
+
+.about-content__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 52px;
+  color: #091E42;
+}
+
+.about-content__content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about-technologies {
+  width: 50%;
+  padding-left: 30px;
+}
+
+.about-technologies > p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+.see-resume {
+  padding: 12px;
+  color: #4053FC;
+  background: white;
+  border-radius: 8px;
+  transition: 0.6s all;
+  border: 1px solid rgb(221, 221, 221);
+}
+
+.see-resume:hover {
+  text-decoration: none;
+  padding: 12px;
+  color: white;
+  background:#4053FC;
+  border-radius: 8px;
+  transition: 0.6s all;
+  border: none;
 }
