@@ -1,10 +1,10 @@
 body {
   background: #E5E5E5;
+  font-family: Poppins;
 }
 
 header {
-  position: absolute;
-  width: 100vw;
+  width: 92vw;
   left: 0px;
   top: 1px;
   background: #FFFFFF;
@@ -34,7 +34,6 @@ header {
 }
 
 .links > span {
-  position: static;
   width: 62px;
   height: 20px;
   left: 12px;
@@ -43,7 +42,6 @@ header {
 }
 
 .links > span > a {
-  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -52,7 +50,6 @@ header {
 }
 
 .links > span > a:hover {
-  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -68,12 +65,10 @@ header {
 }
 
 .header-content__name {
-  position: static;
   width: 620px;
   height: 122px;
   left: 0px;
   top: 0px;
-  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -82,29 +77,17 @@ header {
   align-items: center;
   letter-spacing: 0.37px;
   color: #091E42;
-  flex: none;
-  order: 0;
-  align-self: center;
-  flex-grow: 0;
-  margin: 0px 12px;
 }
 
 .header-content__content {
-  position: static;
-  width: 920px;
   height: 98px;
   left: 0px;
   top: 134px;
-  font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 28px;
   color: #344563;
-  flex: none;
-  order: 1;
-  align-self: center;
-  flex-grow: 0;
   margin: 0px 12px;
 }
 
@@ -114,8 +97,6 @@ header {
 }
 
 .header-icons > p:first-child {
-  position: static;
-  font-family: Poppins;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -126,4 +107,113 @@ header {
 
 .header-icons > span {
   margin-right: 20px;
+}
+
+main {
+  width: 92vw;
+}
+
+.project-container {
+  background: #FFFFFF;
+  display: flex;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.project-img {
+  width: 440px;
+  height: 400px;
+  object-fit: cover;
+  object-position: left;
+  background: url('../img/bookcraze.png');
+  border-radius: 8px;
+}
+
+.project-content {
+  padding-left: 30px;
+}
+
+.project-title {
+  height: 46px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 52px;
+  color: #091E42;
+  margin-bottom: 20px;
+}
+
+.role {
+  height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6B778C;
+  margin-right: 10px;
+}
+
+.year {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6B778C;
+  margin-right: 10px;
+}
+
+.dot {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6B778C;
+  margin-right: 10px;
+}
+
+.project-description {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tech-tools {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #6070FF;
+}
+
+.tech-tools > span {
+  padding: 5px;
+  background: #EBEBFF;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.see-project__container {
+  margin-top: 30px;
+}
+
+.see-project {
+  padding: 12px;
+  color: white;
+  background: #4053FC;
+  border-radius: 8px;
+  transition: 0.6s all;
+  border: none;
+}
+
+.see-project:hover {
+  text-decoration: none;
+  padding: 12px;
+  color: #4053FC;
+  background: white;
+  border-radius: 8px;
+  transition: 0.6s all;
+  border: 1px solid rgb(221, 221, 221);
 }
