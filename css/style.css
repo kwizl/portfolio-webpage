@@ -8,6 +8,7 @@ header {
   left: 0px;
   top: 1px;
   background: #FFFFFF;
+  margin-bottom: 80px;
   padding-bottom: 60px;
   border-bottom-right-radius: 100px;
   border-bottom-left-radius: 100px;
@@ -113,20 +114,34 @@ main {
   width: 92vw;
 }
 
+.portfolio-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.portfolio-title > p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 24px;
+  color: #6070FF;
+}
+
 .project-container {
   background: #FFFFFF;
   display: flex;
   padding: 30px;
   border-radius: 30px;
+  margin-bottom: 40px;
 }
 
 .project-img {
-  width: 440px;
+  width: 40vw;
   height: 400px;
   object-fit: cover;
   object-position: left;
-  background: url('../img/bookcraze.png');
   border-radius: 8px;
+  border: 1px solid rgb(221, 221, 221);
 }
 
 .project-content {
