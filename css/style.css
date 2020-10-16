@@ -233,7 +233,7 @@ main {
 
 .about-title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 .about-title > p {
@@ -247,6 +247,7 @@ main {
 #about {
   background-color: white;
   border-top-right-radius: 100px;
+  border-bottom-left-radius: -100px;
   padding: 50px;
 }
 
@@ -286,7 +287,6 @@ main {
   line-height: 24px;
 }
 
-
 .see-resume {
   padding: 12px;
   color: #4053FC;
@@ -304,4 +304,59 @@ main {
   border-radius: 8px;
   transition: 0.6s all;
   border: none;
+}
+
+.framework-technologies, .db-technologies {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.framework-technologies > div, .db-technologies > div {
+  text-align: center;
+  margin-right: 20px;
+  background: #F7F7F9;
+  border-radius: 8px;
+}
+
+.tech-icons {
+  width: 50%;
+  height: 50%;
+}
+
+#contacts {
+  background-color: #4053FC;
+  color: white;
+}
+
+.footer__heading-box {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.heading-secondary {
+  text-align: center;
+}
+
+.footer__item {
+  display: inline;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  transition: 1.2s all;
+}
+
+.footer__link:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 1.2s all;
+}
+
+#email {
+  padding-right: 50px;
+  text-align: end;
 }
