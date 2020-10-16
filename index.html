@@ -12,6 +12,30 @@
 <body>
   <div class="container">
     <header>
+      <div class="mobile-menu">
+        <div class="logo">
+          <img src="img/diamond.svg" class="img-logo" alt="Logo">
+        </div>
+        <p class="tech-collapse">
+          <a id="dropdown1" data-toggle="collapse" href="#collapse-down3" role="button" aria-expanded="false" aria-controls="collapse-down3">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </a>
+        </p>
+        <div class="collapse" id="collapse-down3">
+          <div>
+            <div>
+              <p class="menu-item"><a href="#portfolio">Portfolio</a></p>
+            </div>
+            <div>
+              <p class="menu-item"><a href="#about">About</a></p>
+            </div>
+            <div>
+              <p class="menu-item"><a href="#contact-me">Contact</a></p>
+            </div>
+          </div>
+          <hr class="delimiter">
+        </div>
+      </div>
       <div class="header-links">
         <div class="logo">
           <img src="img/diamond.svg" class="img-logo" alt="Logo">
@@ -24,7 +48,7 @@
       </div>
       <div class="header-content">
         <p class="header-content__name">I'm Martin</p>
-        <p class="header-content__content lead">
+        <p class="header-content__content">
           I am a Full Stack Developer with a passion for writing software and learning the latest technologies in software development. 
           Go ahead and take a look at my portfolio. See if it's to your liking.
         </p>
@@ -144,12 +168,12 @@
         </div>
         <div class="about-technologies">
           <p class="tech-collapse">
-            <a id="dropdown1" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a id="dropdown1" data-toggle="collapse" href="#collapse-down1" role="button" aria-expanded="false" aria-controls="collapse-down1">
               Frameworks
             </a>
             <hr class="delimiter">
           </p>
-          <div class="collapse" id="collapseExample">
+          <div class="collapse" id="collapse-down1">
             <div id="frame" class="framework-technologies">
               <div>
                 <img class="tech-icons" src="img/react-icon.png" alt="Postgres SQL">
@@ -160,20 +184,22 @@
                 <p>Rails</p>
               </div>
             </div>
+            <hr class="delimiter">
           </div>
           <p class="tech-collapse">
-            <a id="dropdown2" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+            <a id="dropdown2" data-toggle="collapse" href="#collapse-down2" role="button" aria-expanded="false" aria-controls="collapse-down2">
               Database
             </a>
             <hr class="delimiter">
           </p>
-          <div class="collapse" id="collapseExample1">
+          <div class="collapse" id="collapse-down2">
             <div id="frame" class="framework-technologies">
               <div>
                 <img class="tech-icons" src="img/postgres-icon.png" alt="Postgres SQL">
                 <p>Postgres</p>
               </div>
             </div>
+            <hr class="delimiter">
           </div>
         </div>
       </div>
