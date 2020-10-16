@@ -287,6 +287,29 @@ main {
   line-height: 24px;
 }
 
+.tech-collapse {
+  padding-top: 10px;
+}
+
+#dropdown1, #dropdown2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  transition: 0.6s all;
+}
+
+#dropdown1:hover, #dropdown2:hover {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #124296;
+  transition: 0.6s all;
+}
+
 .see-resume {
   padding: 12px;
   color: #4053FC;
