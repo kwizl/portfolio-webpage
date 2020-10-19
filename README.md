@@ -13,7 +13,7 @@ This project is my portfolio for showcasing the most complex projects I have bui
 ## Content
 
 * [Built With](#built-with)
-* [Authors](#authors)
+* [Author](#author)
 
 ## Built With
 
