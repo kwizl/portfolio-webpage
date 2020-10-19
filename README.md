@@ -4,7 +4,7 @@ This project is my portfolio for showcasing the most complex projects I have bui
 
 ## Screenshots
 
-![screenshot](./dist/img/screenshot.png)
+![screenshot](./img/screenshot.png)
 
 
 ## Online Version
