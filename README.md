@@ -2,7 +2,7 @@
 
 This project is my portfolio for showcasing the most complex projects I have built and deployed.
 
-## Screenshots
+## Screenshot
 
 ![screenshot](./img/screenshot.png)
 
