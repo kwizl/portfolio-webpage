@@ -1,0 +1,45 @@
+# PORTFOLIO
+
+This project is my portfolio for showcasing the most complex projects I have built and deployed.
+
+## Screenshots
+
+![screenshot](./dist/img/screenshot.png)
+
+
+## Online Version
+ [Live Demo ](https://kwizl.github.io/portfolio-webpage/)
+
+## Content
+
+* [Built With](#built-with)
+* [Authors](#authors)
+
+## Built With
+
+- HTML5
+- CSS3
+
+<br>
+
+### Contributing
+
+Contributions, issues and feature requests are welcome!
+
+You can do it on [issues page](issues/).
+
+## Acknowledgments
+
+A special thanks for all Microverse Team and Code Reviewers that guides me through my learning.
+
+## Authors
+
+👤 **Martin Njoroge**
+
+- Github: [@kwizl](https://github.com/kwizl)
+- Twitter: [@NjoroKaris](https://twitter.com/NjoroKaris)
+- Linkedin: [Martin Njoroge](https://www.linkedin.com/in/martin-kariuki-njoroge/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
