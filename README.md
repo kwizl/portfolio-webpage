@@ -24,13 +24,13 @@ This project is my portfolio for showcasing the most complex projects I have bui
 
 ### Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 You can do it on [issues page](issues/).
 
 ## Acknowledgments
 
-A special thanks for all Microverse Team and Code Reviewers that guides me through my learning.
+A special thanks to all Microverse Team and Code Reviewers that guides me through my learning.
 
 ## Authors
 
