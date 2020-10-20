@@ -39,7 +39,3 @@ A special thanks to all Microverse Team and Code Reviewers that guides me throug
 - Github: [@kwizl](https://github.com/kwizl)
 - Twitter: [@NjoroKaris](https://twitter.com/NjoroKaris)
 - Linkedin: [Martin Njoroge](https://www.linkedin.com/in/martin-kariuki-njoroge/)
-
-## Show your support
-
-Give a ⭐️ if you like this project!
