@@ -307,6 +307,25 @@
   .footer__email {
     font-size: 14px;
   }
+  
+  .see-project {
+    padding: 12px;
+    color: white;
+    background: #4053FC;
+    border-radius: 8px;
+    transition: 0.6s all;
+    border: none;
+  }
+  
+  .see-project:hover {
+    text-decoration: none;
+    padding: 12px;
+    color: #4053FC;
+    background: white;
+    border-radius: 8px;
+    transition: 0.6s all;
+    border: 1px solid rgb(221, 221, 221);
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -711,6 +730,25 @@
 
   .see-project__container {
     margin-top: 30px;
+  }
+  
+  .see-project {
+    padding: 12px;
+    color: white;
+    background: #4053FC;
+    border-radius: 8px;
+    transition: 0.6s all;
+    border: none;
+  }
+  
+  .see-project:hover {
+    text-decoration: none;
+    padding: 12px;
+    color: #4053FC;
+    background: white;
+    border-radius: 8px;
+    transition: 0.6s all;
+    border: 1px solid rgb(221, 221, 221);
   }
 }
 
