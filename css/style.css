@@ -71,18 +71,19 @@
   }
   
   .header-content {
-    margin-top: 35vh;
+    margin-top: 25vh;
     margin-left: 50px;
     margin-right: 50px;
-    height: 0 auto;
+    height: 45vh;
   }
   
   .header-content__name {
     width: 620px;
     height: 122px;
     font-style: normal;
+    text-align: center;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 60px;
     display: flex;
     align-items: center;
@@ -94,7 +95,7 @@
     height: 98px;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 28px;
     color: #344563;
   }
@@ -109,7 +110,7 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #4053fc;
     margin: 8px 0px;
   }
   
@@ -307,6 +308,25 @@
   .footer__email {
     font-size: 14px;
   }
+  
+  .see-project {
+    padding: 12px;
+    color: white;
+    background: #4053FC;
+    border-radius: 8px;
+    transition: 0.6s all;
+    border: none;
+  }
+  
+  .see-project:hover {
+    text-decoration: none;
+    padding: 12px;
+    color: #4053FC;
+    background: white;
+    border-radius: 8px;
+    transition: 0.6s all;
+    border: 1px solid rgb(221, 221, 221);
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -390,16 +410,17 @@
   }
   
   .header-content {
-    margin-top: 25vh;
+    margin-top: 15vh;
     margin-left: 50px;
     margin-right: 50px;
-    height: 0 auto;
+    height: 45vh;
   }
   
   .header-content__name {
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
+    text-align: center;
+    font-size: 30px;
     line-height: 60px;
     letter-spacing: 0.37px;
     color: #091E42;
@@ -409,7 +430,7 @@
     height: 160px;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 28px;
     color: #344563;
   }
@@ -424,7 +445,7 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #4053fc;
     margin: 8px 0px;
   }
   
@@ -699,7 +720,7 @@
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 0.03em;
-    color: #6070FF;
+    color: #4053fc;
   }
   
   .tech-tools > span {
@@ -711,6 +732,25 @@
 
   .see-project__container {
     margin-top: 30px;
+  }
+  
+  .see-project {
+    padding: 12px;
+    color: white;
+    background: #4053FC;
+    border-radius: 8px;
+    transition: 0.6s all;
+    border: none;
+  }
+  
+  .see-project:hover {
+    text-decoration: none;
+    padding: 12px;
+    color: #4053FC;
+    background: white;
+    border-radius: 8px;
+    transition: 0.6s all;
+    border: 1px solid rgb(221, 221, 221);
   }
 }
 
@@ -770,7 +810,7 @@
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 0.03em;
-    color: #6070FF;
+    color: #4053fc;
   }
   
   .tech-tools > span {
