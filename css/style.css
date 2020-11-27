@@ -13,7 +13,6 @@
   }
 
   header {
-    margin: 0 5% 0 5%;
     background: #FFFFFF;
     margin-bottom: 80px;
     padding-bottom: 60px;
@@ -71,10 +70,9 @@
   }
   
   .header-content {
-    margin-top: 25vh;
+    margin-top: 5vh;
     margin-left: 50px;
     margin-right: 50px;
-    height: 45vh;
   }
   
   .header-content__name {
@@ -121,7 +119,6 @@
   .portfolio-title {
     text-align: center;
     margin-bottom: 40px;
-    margin-left: calc((100vw - 80vw) / 2);
   }
   
   .portfolio-title > p {
@@ -410,10 +407,9 @@
   }
   
   .header-content {
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin-left: 50px;
     margin-right: 50px;
-    height: 45vh;
   }
   
   .header-content__name {
@@ -456,7 +452,6 @@
   .portfolio-title {
     text-align: center;
     margin-bottom: 40px;
-    margin-left: calc((100vw - 80vw) / 2);
   }
   
   .portfolio-title > p {
