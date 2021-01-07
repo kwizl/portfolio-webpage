@@ -8,7 +8,7 @@ This project is my portfolio for showcasing the most complex projects I have bui
 
 
 ## Online Version
- [Live Demo ](https://kwizl.github.io/portfolio-webpage/)
+ [Live Demo ](https://www.martinjoroge.tech/)
 
 ## Content
 
