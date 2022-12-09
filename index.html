@@ -54,7 +54,7 @@
         <p class="header-content__name">I'm Martin</p>
         <p class="header-content__content">
           I am a Full Stack Developer with a passion for writing software and learning the latest technologies in software development. 
-          Here is my Portfolio. Be in touch if you want to work together.
+          Here is my Portfolio. Feel free to get in touch if you want to work together.
         </p>
       </div>
       <div class="header-icons">
@@ -76,6 +76,42 @@
       </div>
       <div class="project-container">
         <div class="project-img__container">
+          <img class="project-img img-responsive" src="img/smartdevphones.png" alt="Stay In Touch">
+        </div>
+        <div class="project-content">
+          <p class="project-title">SmartDevPhones</p>
+          <span class="role">Full Stack</span>
+          <span class="dot">&bull;</span>
+          <span class="year">2022</span>
+          <span class="dot">&bull;</span>
+          <p class="project-description">
+            It is a web application where people people can order smartphones online. It is built using Microservice Architecture and uses an API Gateway Pattern to consume the varius APis.
+          </p>
+          <div class="tech-tools">
+            <span>ASP.NET Core</span>
+            <span>Mongo Database</span>
+            <span>SQL Server</span>
+          </div>
+          <hr>
+          <div class="tech-tools">
+            <span>Postgres</span>
+            <span>Redis</span>
+            <span>RabbitMQ</span>
+          </div>
+          <hr>
+          <div class="tech-tools">
+            <span>Docker</span>
+            <span>Docker Compose</span>
+            <span>Digital Ocean</span>
+          </div>
+          <div class="see-project__container">
+            <a href="https://github.com/kwizl/smartphone-ecom" target="_blank" class="see-project mr-3">Source Code</a>
+            <a href="https://smartdevphones.com/" target="_blank" class="see-project">Live Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-img__container">
           <img class="project-img img-responsive" src="img/stay-in-touch.png" alt="Stay In Touch">
         </div>
         <div class="project-content">
@@ -85,7 +121,31 @@
           <span class="year">2020</span>
           <span class="dot">&bull;</span>
           <p class="project-description">
-            Stay In Touch is a social media web application. The application allows for user registration, user sign in and posting comments, liking posts and sending friend requests.
+            This is a healthchecker for the SmartDevPhones ecommerce application. It show the status of the four databases that the application uses and also the status
+            of the message broker. If connetivity to these key infrastructure is compromised, the healthchecker will flag it.
+          </p>
+          <div class="tech-tools">
+            <span>ASP.NET Core</span>
+            <span>Digital Ocean</span>
+          </div>
+          <div class="see-project__container">
+            <a href="https://github.com/kwizl/smartphone-ecom/tree/develop/src/Services/Monitoring/HealthChecker" target="_blank" class="see-project mr-3">Source Code</a>
+            <a href="https://health.smartdevphones.com" target="_blank" class="see-project">Live Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-img__container">
+          <img class="project-img img-responsive" src="img/stay-in-touch.png" alt="Stay In Touch">
+        </div>
+        <div class="project-content">
+          <p class="project-title">Stay In Touch</p>
+          <span class="role">Full Stack</span>
+          <span class="dot">&bull;</span>
+          <span class="year">2020</span>
+          <span class="dot">&bull;</span>
+          <p class="project-description">
+            Stay In Touch is a social media web application. The application allows for user registration, user sign-in and posting comments, liking posts, and sending friend requests.
           </p>
           <div class="tech-tools">
             <span>Ruby on Rails</span>
@@ -110,7 +170,7 @@
           <span class="year">2020</span>
           <span class="dot">&bull;</span>
           <p class="project-description">
-            Bookcraze is a web application where bookworms can share their passion and love for the books that the love to read through articles.
+            Bookcraze is a web application where bookworms can share their passion and love for the books that they love to read through articles.
           </p>
           <div class="tech-tools">
             <span>Ruby on Rails</span>
@@ -135,9 +195,8 @@
           <span class="year">2020</span>
           <span class="dot">&bull;</span>
           <p class="project-description">
-            Space Wars is a arcade space-shooter game made using Javascript/Phaser 3 Framework.
-            The goal of the game is to destroy as many enemies and asteroids as possible without getting killed. 
-            When the player shoots an enemy they get 20 points, on their score while shooting an asteroid is 5 points.
+            Space Wars is an arcade space-shooter game made using Javascript/Phaser 3 Framework.
+            The goal of the game is to destroy as many enemies and asteroids as possible without getting killed. When the player shoots an enemy, they get 20 points, on their score while shooting an asteroid is 5 points.
           </p>
           <div class="tech-tools">
             <span>ES6</span>
@@ -163,10 +222,11 @@
             About Myself
           </p>
           <p class="about-content__content">
-            I am a software developer who has been engaged in multiple projects from game development (using Unity Engine) to Web Development (ASP.NET Core and Ruby on Rails). Currently, I'm focusing on web development using ASP.NET Core. 
+            I am a software developer who has been engaged in multiple projects from game development (using Unity Engine) to Web Development (Ruby on Rails and ASP.NET Core). Currently, I am a software engineer at Fintech company called Innova Limited
+            where I work with ASP.NET Core and Angular framework.
           </p>
           <div class="see-resume__container">
-            <a href="https://drive.google.com/file/d/1JapnhXh8jp6Ffo6JCv8hBGCnIzSHqsY0/view?usp=sharing" target="_blank" class="see-resume">See Resume</a>
+            <a href="https://docs.google.com/document/d/17YWXIYY98hA0u7paYew-FE4PZddRR_LUD4sBg5EB22A/edit?usp=sharing" target="_blank" class="see-resume">See Resume</a>
           </div>
         </div>
         <div class="about-technologies">
@@ -177,17 +237,21 @@
             <hr class="delimiter">
           </p>
           <div class="collapse" id="collapse-down1">
-            <div id="frame" class="framework-technologies">
+            <div class="framework-technologies">
               <div>
-                <img class="tech-icons" src="img/react-icon.png" alt="Rails">
+                <img class="tech-icons" src="img/angular-icon.png" alt="Angular">
+                <p>Angular</p>
+              </div>
+              <div>
+                <img class="tech-icons" src="img/aspnetcore-icon.png" alt="ASP.NET Core">
+                <p>ASP.NET Core</p>
+              </div>
+              <div>
+                <img class="tech-icons" src="img/react-icon.png" alt="React">
                 <p>React</p>
               </div>
               <div>
-                <img class="tech-icons" src="img/ASP.NET.png" alt="ASP.NET">
-                <p>ASP.NET</p>
-              </div>
-              <div>
-                <img class="tech-icons" src="img/rails-icon.png" alt="Postgres SQL">
+                <img class="tech-icons" src="img/rails-icon.png" alt="Rails">
                 <p>Rails</p>
               </div>
             </div>
@@ -200,14 +264,56 @@
             <hr class="delimiter">
           </p>
           <div class="collapse" id="collapse-down2">
-            <div id="frame" class="framework-technologies">
-              <div>
-                <img class="tech-icons" src="img/SQLServer.png" alt="Postgres SQL">
-                <p>SQL Server</p>
-              </div>
+            <div class="framework-technologies">
               <div>
                 <img class="tech-icons" src="img/postgres-icon.png" alt="Postgres SQL">
                 <p>Postgres</p>
+              </div>
+              <div>
+                <img class="tech-icons" src="img/sqlserver-icon.png" alt="SQL Server">
+                <p>SQL Server</p>
+              </div>
+              <div>
+                <img class="tech-icons" src="img/mongodb-icon.png" alt="Mongo">
+                <p>Mongo</p>
+              </div>
+              <div>
+                <img class="tech-icons" src="img/redis-icon.png" alt="Redis">
+                <p>Redis</p>
+              </div>
+            </div>
+            <hr class="delimiter">
+          </div>
+          <p class="tech-collapse">
+            <a id="dropdown4" data-toggle="collapse" href="#collapse-down4" role="button" aria-expanded="false" aria-controls="collapse-down4">
+              Containerization
+            </a>
+            <hr class="delimiter">
+          </p>
+          <div class="collapse" id="collapse-down4">
+            <div class="framework-technologies">
+              <div>
+                <img class="tech-icons" src="img/docker-icon.png" alt="Docker">
+                <p>Docker</p>
+              </div>
+            </div>
+            <hr class="delimiter">
+          </div>
+          <p class="tech-collapse">
+            <a id="dropdown5" data-toggle="collapse" href="#collapse-down5" role="button" aria-expanded="false" aria-controls="collapse-down5">
+              Cloud Services
+            </a>
+            <hr class="delimiter">
+          </p>
+          <div class="collapse" id="collapse-down5">
+            <div class="framework-technologies">
+              <div>
+                <img class="tech-icons" src="img/heroku-icon.png" alt="Docker">
+                <p>Heroku</p>
+              </div>
+              <div>
+                <img class="tech-icons" src="img/digitalocean-icon.png" alt="Docker">
+                <p>Digital Ocean</p>
               </div>
             </div>
             <hr class="delimiter">
@@ -218,7 +324,7 @@
     <footer id="contacts" class="footer">
       <div class="footer__heading-box">
         <h2 id="contact-me" class="heading-secondary">
-          Contact Me
+          Contacts
         </h2>
       </div>
       <div id="contact-pitch">
