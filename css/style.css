@@ -192,7 +192,7 @@
     padding-top: 10px;
   }
   
-  #dropdown1, #dropdown2 {
+  #dropdown1, #dropdown2, #dropdown3, #dropdown4 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -201,7 +201,7 @@
     transition: 0.6s all;
   }
   
-  #dropdown1:hover, #dropdown2:hover {
+  #dropdown1:hover, #dropdown2:hover, #dropdown3:hover, #dropdown4:hover {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -550,7 +550,7 @@
     padding-top: 10px;
   }
   
-  #dropdown1, #dropdown2 {
+  #dropdown1, #dropdown2, #dropdown3, #dropdown4 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -559,7 +559,7 @@
     transition: 0.6s all;
   }
   
-  #dropdown1:hover, #dropdown2:hover {
+  #dropdown1:hover, #dropdown2:hover, #dropdown3:hover, #dropdown4:hover {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -721,6 +721,7 @@
     font-size: 12px;
     letter-spacing: 0.03em;
     color: #4053fc;
+    margin-bottom: 1vh;
   }
   
   .tech-tools > span {
